@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Optional;
-@CrossOrigin(origins = "https://dashboard.heroku.com/apps/garam1herokuapp.com")
+@CrossOrigin(origins = "https://garam1.herokuapp.com/")
 @RestController
 @RequestMapping(path= "realestate")
 public class RealestateController {
