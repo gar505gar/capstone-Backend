@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Optional;
-
+@CrossOrigin(origins = "https://dashboard.heroku.com/apps/garam1herokuapp.com")
 @RestController
 @RequestMapping(path = "api/mediator")
 public class MediatorController {
